@@ -1,0 +1,20 @@
+p{/*l'appel du selecteur (nom de la bales, le nom d'une classe.... */
+    /*ici je met le code css */
+    /*la forme d'une propriété*/
+    /*nom_propriete:valeur_propriete;*/
+    /* un exemple */
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;/*font-family permet de changer le nom de la police*/
+}
+h1{
+background-color: pink;/*background-color permet de changer la couleur de l'arriere plan*/
+color:red;/*propriete color permet de changer la couleur de texte*/
+text-align: center;/*text align permet d'aligner le texte*/
+font-size: 115px;/*font-size permet de changer la taille de l'écriture*/
+}
+/*l'appel d'une classe se fait en ajoutant un point au début*/
+.premier_p{
+    color: salmon;
+    font-size: 14px;
+    text-align:right;
+}
