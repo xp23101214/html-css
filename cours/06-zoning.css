@@ -1,0 +1,32 @@
+body{
+    margin: 0 auto;
+    width: 1300px;
+    font-family: cursive;
+}
+header,footer{
+    background-color: blue;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}nav{
+    background-color: teal;
+    height: 50px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+section{
+    background-color: #f9f9dc;
+    height: 500px;
+    padding: 50px;
+}
+section p{
+    background-color: orange;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+p{
+    margin: 0px;
+}

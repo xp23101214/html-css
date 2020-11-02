@@ -1,0 +1,46 @@
+/*
+sélécteur{
+    propriété 1: valveur1;
+    propriété 2: valveur2;
+    propriété 3: valveur3;
+}
+
+*/
+/*selecteur a deux niveaux, il selectionne les p qui se trouve a l'interieur (enfant direct=*/
+section p{
+    color:blue;
+}/*selecteur simple avec le nom de la balise)*/
+h1{
+    background-color: blue;
+    color: mediumaquamarine; /*#ffffff c'est le blanc, #000000 c'est le noir */
+}
+section p span{
+    font-size: 60px;
+}
+section p:nth-child(2){
+
+    background-color: magenta;
+}
+section p:last-child{
+    background: maroon;
+}
+section p:nth-child(6), section p:nth-child(9)/*on peut mettre plusieurs selecteurs espacé par un virgule*/
+{
+    color: orange;
+    font-size: 36px;
+}
+section p:nth-child(even)/*permet de selectionner les nombre paire (even)*/
+{
+    border:1px solid limegreen;
+
+}
+section p:nth-child(odd){/*permet de selectionner les nombre inpaire (even)*/
+    text-align: center;
+}
+.list_1 ul li:nth-child(2)
+{
+background-color: blue;
+}
+ul.list_2 li{/*c'est équivalent a list_2 li*/
+    border: 1px solid lightsalmon;
+}
