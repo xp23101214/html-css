@@ -1,0 +1,47 @@
+body{text-align: center;
+}
+.item1{
+    width: 250px;
+    height: 100px;
+    background-color: yellowgreen;
+    position: absolute;
+    right:100px;
+    top: 150px;/*les propriété top bot right left sont relative a la propriété position*/
+    /*comme on peut utiliser une seule propriété, on peut aussi utiliser 3 propriété en meme temps*/
+}
+.item2{    width: 250px;
+    height: 100px;
+    background-color:pink;
+position: absolute;
+bottom: 0px;
+right: 0px;}
+.item3{    width: 250px;
+    height: 100px;
+    background-color:rebeccapurple;
+    position: relative;
+    top: 150px;
+    left: 300px;
+    color: white;
+}
+    .item4{
+        width: 250px;
+        height: 100px;
+        background-color: green;
+    }
+.bloc_2{border: 1px solid gray;
+    position: relative;
+    left: 100px;
+    width: 400px;
+    
+}
+header{
+    background-color: firebrick;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    z-index: 1;/*z-index: permet de donner un ordre d'affichage pour les elements qui sont surposés*/
+    color: #fff;
+
+}
