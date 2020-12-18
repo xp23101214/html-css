@@ -1,0 +1,153 @@
+body{
+    font-family: sans-serif;/*je change la police d'écriture sur le body pour que la page soit affecté*/
+    margin: 0 auto;/*Je centre ma page*/
+    width: 1300px; 
+    background-color:rgb(23,23,23);/*je met une couleur au body*/
+}
+h1:first-child{/*Je cherche le premier enfant de h1 pour mettre de l'espace entre les lettres*/
+    letter-spacing: 5px;
+}
+.mon_compte{
+    display: flex;/*je les met l'un à côté de l'autre*/
+    text-decoration: none;
+}
+.panier{
+    display: flex;
+    text-decoration: none;
+}
+.perso a{/*cette fois si je cible a en le rajoutant juste après le nom de ma classe attribué en html*/
+    text-decoration: none;/*je retire les décoration du lien pour plus qu'il soit souligné*/
+    padding: 30px;
+      
+}
+.perso{
+    width: 500px;/*je règle la taille pour ne pas qu'elle prenne la longeur de la page*/
+    display: flex;
+    border: solid 1px black;/*j'ajoute la bordure*/
+    justify-content: space-around;/*j'espace les élément a peu près comme sur la maquette*/
+    background-color: lightgray;
+}
+.lightgray{
+    background-color: rgb(234,234,234);
+    
+}
+.image_header{
+        margin-bottom: 40px;
+}
+.gant{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px ;
+}
+.gant_deux{
+    display: flex;
+    justify-content: space-around;
+}
+.premier_gant{
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+.promo_un{
+    position: absolute;
+    left:40%;
+    background-color: rgb(59,59,59);
+    color:orange;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.promo_deux{
+    position: absolute;
+    right: 22%;
+    background-color: rgb(59,59,59);
+    color:orange;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.help a{
+    text-decoration: none;
+    position: relative;
+    left: 730px;
+    border-right: solid 1px;
+}
+.gant a{
+    position: relative;
+    top: 30px;
+    right: 130px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 6px;
+}
+.gant_deux a{
+    position: relative;
+    top: 30px;
+    right: 130px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+.cve{
+    position: relative ;
+    top: 30px;
+    text-decoration: line-through;
+}
+.image_header{
+width: 100%;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: 100px;
+
+}
+footer{
+    background-color: #404040;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+.reseaux{
+    display: flex;
+    padding-bottom: 100px;
+    justify-content:space-around;
+    width:430px;
+    margin-left: 430px;
+    
+
+}
+.fin{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+.reduction{
+    position: relative;
+    top: 40px;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: 20px;
+}
+.new_price{
+    color: orange;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-weight: bold;
+    
+}

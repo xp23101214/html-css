@@ -1,0 +1,39 @@
+.row{
+    display: flex;
+    background-color:bisque;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    border: solid 1px;
+}
+.rose_1{
+    background-color:pink;
+    text-align: center;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white; 
+}
+.col_1 {width: 8.333333%;}
+.col_2 {width: 16.666666%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.333333%;}
+.col_5 {width: 41.666666%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.333333%;}
+.col_8 {width: 66.666666%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.333333%;}
+.col_11 {width:91.666666%;}
+.col_12 {width: 100%;}
+.blue{
+    background-color: lightblue;
+}
+.rose{
+    background-color: pink;
+    height: 72px;
+    text-align: center;
+}

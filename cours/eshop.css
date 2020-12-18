@@ -1,0 +1,11 @@
+.navbar li{
+    border-left: 1px solid lightgray;
+    text-align: center;
+}
+.navbar i{
+    font-size: 18px;
+}
+.slide{
+    display: flex;
+    justify-content: space-between;
+}

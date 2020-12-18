@@ -1,0 +1,42 @@
+nav,ul{
+    padding:0;
+    margin:0;
+    border:0;
+}
+.container{
+    width: 900px;
+    margin:0 auto;
+}
+.niveau1 li{
+list-style-type:none;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    text-align:center;
+}
+.niveau1{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* background-color: gray; */
+}
+.niveau1 a{
+     background-color: gray;
+     padding: 13px 20px;
+     display:block;
+     width:150px;
+}
+.niveau2 {
+    display:none;
+}
+.niveau1 a:hover{
+    background-color: #EDD;
+}
+.niveau1 li:hover .niveau2{
+    display: block;
+}
+.niveau2 a{
+    display:block;
+    width:150px;
+    text-align: left;
+}

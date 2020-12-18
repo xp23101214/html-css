@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--Permet de définir le langage utilisé et la langue -->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Reliez le fichier html au fichier CSS(Cascading Style Sheets)-->
+     <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald" rel="stylesheet">
+     <!--appel de la bibiliothèque font awsome-->
+     <script src="https://kit.fontawesome.com/5194382582.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="image.css">
+     <!--Titre du site apparaissant  par exemple sur une recherche google-->
+    <title>Mon premier site Multipage</title>
+    <!--Description sous le titre dans la recherche google, Les moteurs de recherches s'en servent un peu comme des mots clefs pour les recherchers-->
+    <meta name="description" content="Mon premier site html-css multipage">
+
+</head>
+<body>
+    <header><!--l'enete du site, qui peut contenir un logo,slogan,banière  nav ...... -->
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="">
+        </div>
+        <div class="slogan">
+            <h1>Mon premier site en HTML/CSS</h1>
+        </div>
+        <div class="social">
+        <!-- target="_Blank" permet d'ouvrir un lien dans un nouveau onglet -->
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a><!--pour creer un lien sur des icons font awsome il faut les déplacer a l'interieur de balise a--> 
+            <a href="https://www.facebook.com" target="_blank" ><i class="fab fa-facebook-square"></i></a>
+
+        </div>
+
+    </header>
+    <!--barre de navigation-->
+    <nav>
+        <!--ul>li*12>a-->
+        <ul class="nav_bar">
+            <li class="active"><a href="">Structure</a></li><!--le lien vers la page index.html-->
+            <li><a href="">Texte</a></li>
+            <li><a href="">Selecteur</a></li>
+            <li><a href="image.html">Image</a></li>
+            <li><a href="">Position</a></li>
+            <li><a href="">Zoning</a></li>
+            <li><a href="">Tableau</a></li>
+            <li><a href="">Liste</a></li>
+            <li><a href="">Lien & menu</a></li>
+            <li><a href="">Formulaire</a></li>
+            <li><a href="">Multimedia</a></li>
+            <li><a href="">Animation</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <section class="structure">
+            <h3>Décrivez leur usage et leurs valeurs possibles</h3>
+            <ol>
+                <li><b>background:</b> couleur du fond de l'élément</li>
+                <li><b>color:</b> couleur de la police</li>
+                <li><b>float:</b> effet flottant</li>
+                <li><b>font-family:</b> police</li>
+                <li><b>font-size:</b> taille de la police</li>
+                <li><b>height:</b> hauteur de l'élément</li>
+                <li><b>left:</b> position à partir de la gauche de la fenêtre</li>
+                <li><b>line-height:</b> hauteur de l'interligne</li>
+                <li><b>margin:</b> marges extérieures</li>
+                <li><b>padding:</b> marges intérieures</li>
+                <li><b>position:</b> position de l'élément dans la page (on n'a utilisé que la valeur (fixed) pour l'instant)</li>
+                <li><b>text-align:</b> alignement du texte</li>
+                <li><b>text-decoration:</b> changement des valeurs héritées (ici le souligné qui est standard pour les liens sous tous les navigateurs est supprimé)</li>
+                <li><b>top:</b> position à partir du haut de la fenêtre</li>
+                <li><b>transition:</b> temps de transition lors d'une animation (ici sur les liens de la barre de menus)</li>
+                <li><b>width:</b> largeur de l'élément par rapport à la taille de la fenêtre si on indique une valeur relative (%, em, ...)</li>
+            </ol>
+        </section>
+        <section  class="structure">
+            <h3>Propriétés CSS à rechercher</h3>
+            <h4>Recherchez les propriétés ci-dessous, faites des tests avec sur cette page depuis la console de débuggage pour tester les valeurs qu'elles peuvent prendre</h4>
+                <ol>
+                    <li><b>font-weight:</b>change l'épaisseur de la police</li>
+                    <li><b>letter-spacing:</b> gérer les espaces entres les lettres du mot</li>
+                    <li><b>word-spacing:</b> l'espacement entre les mots d'une phrase</li>
+                    <li><b>text-shadow:</b> créer un ombre sur le texte</li>
+                    <li><b>background-image:</b> mettre une image en arrière plan d'un bloc</li>
+                    <li><b>background-size:</b> gérer la taille de la background</li>
+                    <li><b>opacity:</b> gérer la transparence(valeur de 0 a 1)</li>
+                    <li><b>border-style:</b> le type de bordure(solid,double,dotted,inset,dashed...)</li>
+                    <li><b>box-shadow:</b> Crér l'ombre sur un box</li>
+                    <li><b>list-style-image:</b> ajouter des images en background pour les listes</li>
+                    <li><b>border:</b> créer des bordures</li>
+                    <li><b>border-radius:</b> Créer les arrondus pour les bloc</li>
+                    <li><b>border-width:</b>l'paisseur du bordure(en px) </li>
+                    <li><b>font-variant:</b> spécifier que le texte soit en petites capitales</li>
+                    <li><b>background-color:</b>pour changer la couleur de l'arrière planc d'un bloc</li>
+                    <li><b>!important: pour forcer une propriéte </b> </li>
+                </ol>
+        </section>
+    </main>
+    <!--le bas du site-->
+    <footer>
+
+    </footer>
+</body>
+</html>
